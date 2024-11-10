@@ -5,9 +5,14 @@ First off, if you decide to contribute to MyrCTF 2025 you have to keep in mind t
 ## Contact
 To submit challenges you can contact us and share your work, either via e-mail at [archer@jesber.xyz](mailto:archer@jesber.xyz) or contact **arch-err** via discord.
 
+
 ## Technical Requirements
 If the following requirements are not met your challenge will most likely not even be considered for *MyrCTF 2025*. Make sure too meet them at the best of your abillity.
 
+### Template
+A challenge template repo can be found on [arch-err's GitHub](https://github.com/arch-err/ctf-challenge-creation-template)
+
+### Requirements
 - **Flag Format**: The flag must match the RegEx `MyrCTF\{[A-Za-z0-9_\.\|-]{8,32}\}`
 - **Challenge Metadata**: Create and fill out the following file (named `challenge.yaml`):
 ```yaml
